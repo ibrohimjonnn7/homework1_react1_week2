@@ -181,34 +181,3 @@ export default function HomePage() {
     </>
   );
 }
-
-function Section3() {
-  return (
-    <section
-      style={{
-        display: "flex",
-        alignItems: "center",
-        justifyContent: "space-between",
-        backgroundColor: "#EAF2F5",
-        padding: "10px",
-        borderRadius: "10px",
-      }}
-    >
-      <div style={{ width: "45%" }}>
-        <h1>
-          Школа программирования для тех, кому нужны реальные навыки, а не
-          просто сертификат
-        </h1>
-        <p>
-          Пройдите тестирование, чтобы получить доступ к бесплатным вводным
-          урокам
-        </p>
-        <Button />
-      </div>
-      <div style={{ width: "45%" }}>
-        <img src={img17} alt="" />
-      </div>
-    </section>
-  );
-}
-
